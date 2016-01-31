@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f324684b-bc5f-4a58-84e2-76df8f341e6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/App.vue" afterPath="$PROJECT_DIR$/www/src/App.vue" />
-    </list>
+    <list default="true" id="f324684b-bc5f-4a58-84e2-76df8f341e6b" name="Default" comment="" />
     <ignored path="tinkeringCordovaVue.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

@@ -42,108 +42,20 @@
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Trash</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Spam</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Purchases</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">people</i>Social</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/home' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/hello' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/reports' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Reports</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/forum' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/flag' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/promos' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos</a>
+          <a class="mdl-navigation__link" v-link="{ path: '/shopping' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Purchases</a>
+          <a class="mdl-navigation__link" v-link="{ path: 'people' }"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">people</i>Social</a>
           <div class="mdl-layout-spacer"></div>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid demo-content">
-          <h1>Apache Cordova AA + Vue.js</h1>
-          <div class="app">
-            <div id="deviceready" class="blink">
-              <p class="event listening">Connecting to Device</p>
-              <p class="event received">Device is Ready</p>
-            </div>
-          </div>
-
-          <hello></hello>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam beatae consectetur consequuntur
-            laboriosam, laudantium libero magni nesciunt nisi, obcaecati porro quisquam sint suscipit voluptas. Labore
-            provident ratione sint!</p>
-
-          <p>Accusantium cum ex harum maiores perferendis sapiente voluptate voluptatem! Alias, beatae delectus et
-            facilis incidunt, ipsa laboriosam laborum laudantium natus nobis provident qui? Earum illo illum inventore
-            libero rerum voluptatem.</p>
-
-          <p>Autem dignissimos excepturi fugit iusto odio praesentium quam vero. A accusantium aperiam dolorum eum ex
-            facilis id incidunt minus mollitia natus non quidem quo, rerum suscipit, temporibus tenetur, totam.
-            Culpa!</p>
-
-          <p>Adipisci aperiam architecto aspernatur at dignissimos eos est et ipsum laborum mollitia, neque non numquam
-            omnis quasi quidem quo sapiente tempora, velit, voluptates voluptatibus? Animi incidunt iste itaque quia
-            vero.</p>
-
-          <p>Architecto consequatur, dicta distinctio dolore excepturi ipsum iste minus provident quaerat, quibusdam
-            quod rerum temporibus tenetur, vel voluptate? Asperiores fugit illo inventore ipsam totam. Doloremque earum
-            facere laboriosam rem unde!</p>
-
-          <p>Aliquam cum eaque error ipsam nobis placeat praesentium, quod ratione unde vitae! Accusantium adipisci
-            corporis labore laboriosam laudantium nihil, nisi! Iste iusto laborum nesciunt quam, quas quisquam tempora
-            velit voluptas?</p>
-
-          <p>A accusamus alias consectetur cumque distinctio dolores doloribus dolorum enim, esse ex, incidunt iusto
-            labore magnam necessitatibus nemo optio praesentium quaerat quas quia quos ratione saepe sapiente temporibus
-            unde veritatis!</p>
-
-          <p>Accusamus cumque debitis dignissimos explicabo, illo laudantium numquam quidem ratione saepe voluptatum! A
-            ad adipisci at atque blanditiis cupiditate eveniet facere, impedit ipsam ipsum laudantium obcaecati, optio,
-            possimus reprehenderit temporibus?</p>
-
-          <p>Accusamus amet assumenda distinctio dolorem earum facere neque rem repudiandae similique sunt? A ad beatae
-            commodi delectus dolores dolorum eaque facere, inventore ipsum libero, officia perferendis quaerat quia,
-            veniam voluptatum.</p>
-
-          <p>Adipisci, aspernatur aut beatae commodi dolorum eius enim eos, esse, est explicabo facilis harum ipsum iure
-            molestiae obcaecati odit officiis omnis placeat possimus quidem quis quisquam rerum sunt temporibus ut.</p>
-
-          <p>Alias animi aperiam assumenda delectus distinctio eligendi esse, ex laboriosam laudantium mollitia nam
-            nesciunt optio praesentium provident quam quidem ratione reiciendis repellat saepe, ullam unde veniam,
-            veritatis vero. Doloribus, et?</p>
-
-          <p>Aperiam corporis delectus ea ex facere laborum natus omnis, pariatur perferendis possimus, quam quos rem
-            rerum? Accusamus animi id laudantium nulla numquam officiis repellat sunt? Accusantium architecto blanditiis
-            eius numquam.</p>
-
-          <p>Accusantium, adipisci asperiores assumenda autem cumque dicta dolore error est illo laudantium libero
-            maxime nesciunt non pariatur quam quasi, quisquam ratione recusandae rerum sequi suscipit temporibus totam
-            unde vel voluptatum.</p>
-
-          <p>Aspernatur at, atque et fugit inventore quisquam similique? Aliquam assumenda beatae corporis dignissimos
-            ex facilis ipsam laboriosam magnam maiores nihil nulla quae quis similique totam veniam veritatis, vero
-            voluptates voluptatum?</p>
-
-          <p>A accusantium corporis delectus dolores dolorum ea eius fuga ipsam molestiae pariatur placeat possimus,
-            saepe sequi similique suscipit tempora veritatis. Amet corporis dolorem laboriosam nam nobis odio quas sunt
-            ut.</p>
-
-          <p>Architecto aspernatur autem eligendi error exercitationem, iure minus nobis odit quaerat quo temporibus
-            totam ullam. Animi beatae cupiditate iusto nam non! Deleniti explicabo impedit recusandae totam. Adipisci in
-            voluptas voluptate.</p>
-
-          <p>Amet aperiam asperiores aspernatur earum eligendi est iste molestiae officia, quam qui, soluta tenetur
-            velit vitae. Ad at dignissimos ea explicabo libero modi nihil ullam? Ex placeat similique sunt tempore.</p>
-
-          <p>Aliquid architecto commodi et exercitationem id ipsum itaque repellat repellendus tenetur? Accusamus
-            asperiores esse explicabo facilis inventore nam obcaecati odit possimus quos, temporibus tenetur voluptatem
-            voluptates. Architecto mollitia ratione sit?</p>
-
-          <p>Atque dignissimos excepturi sit soluta ullam? A accusantium asperiores beatae consequatur, cupiditate
-            eligendi eos eveniet ex in incidunt ipsam necessitatibus nesciunt nobis nulla obcaecati omnis praesentium
-            qui quisquam ratione reiciendis!</p>
-
-          <p>Dolor ea fuga fugiat, magnam non porro reiciendis repellendus soluta sunt velit? Accusamus accusantium
-            animi architecto at autem consequuntur earum eligendi eum id iste, itaque molestias soluta suscipit, tempora
-            ut.</p>
-        </div>
+        <router-view></router-view>
       </main>
     </div>
   </div>

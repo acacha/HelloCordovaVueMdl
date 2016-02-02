@@ -3,7 +3,8 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import Hello from './components/Hello.vue'
 import Home from './components/Home.vue'
-import Reports from './components/Reports.vue'
+import Dashboard from './components/Dashboard.vue'
+import Cordova from './components/Cordova.vue'
 
 Vue.use(VueRouter)
 
@@ -24,8 +25,11 @@ router.map({
   '/home': {
     component: Home
   },
-  '/reports': {
-    component: Reports
+  '/dashboard': {
+    component: Dashboard
+  },
+  '/cordova': {
+    component: Cordova
   }
 })
 // Now we can start the app!
